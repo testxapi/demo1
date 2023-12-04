@@ -567,6 +567,8 @@
                 description: {
                   "en-us":
                     "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
+                  "ja-jp":
+                    "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
                 },
               },
             },
@@ -574,7 +576,10 @@
               contextActivities: {
                 category: [
                   {
-                    id: "https://demo.flak.works/categories/34/videos",
+                    id: "https://w3id.org/xapi/video/v1.0.2",
+                    definition: {
+                      type: "https://w3id.org/xapi/video/activity-type/video",
+                    },
                   },
                 ],
               },
@@ -586,69 +591,6 @@
                 "https://w3id.org/xapi/video/extensions/length": 60,
               },
             },
-            concepts: [
-              {
-                id: "https://w3id.org/xapi/video/activity-type/video",
-                type: "ActivityType",
-                inScheme: "https://demo.flak.works/video?video_id=14",
-                prefLabel: {
-                  en: "video",
-                },
-                definition: {
-                  en: "A recording of both the visual and audible components made available on a display screen.",
-                },
-                exactMatch: ["https://demo.flak.works/categories/34/videos"],
-              },
-            ],
-            patterns: [
-              {
-                id: "https://w3id.org/xapi/video/patterns#generalpattern",
-                type: "Pattern",
-                primary: true,
-                inScheme: "https://demo.flak.works/video?video_id=14",
-                prefLabel: {
-                  en: "General Pattern",
-                },
-                definition: {
-                  en: "The general pattern and sequence of Statement templates using the Video Profile.",
-                },
-                sequence: [
-                  "https://w3id.org/xapi/video/templates#initialized",
-                  "https://w3id.org/xapi/video/patterns#optionalmiddlestatements",
-                  "https://w3id.org/xapi/video/templates#terminated",
-                ],
-              },
-              {
-                id: "https://w3id.org/xapi/video/patterns#all-activities-pattern",
-                type: "Pattern",
-                inScheme: "https://demo.flak.works/video?video_id=14",
-                prefLabel: {
-                  en: "All Activities Pattern",
-                },
-                definition: {
-                  en: "All of the Video Profile statement templates.",
-                },
-                alternates: [
-                  "https://w3id.org/xapi/video/templates#played",
-                  "https://w3id.org/xapi/video/templates#paused",
-                  "https://w3id.org/xapi/video/templates#volumechange",
-                  "https://w3id.org/xapi/video/templates#completed",
-                ],
-              },
-              {
-                id: "https://w3id.org/xapi/video/patterns#optionalmiddlestatements",
-                type: "Pattern",
-                inScheme: "https://demo.flak.works/video?video_id=14",
-                prefLabel: {
-                  en: "Optional Middle Statements",
-                },
-                definition: {
-                  en: "A combined pattern of zero or more Video Profile standard statement templates that can be used with the general pattern.",
-                },
-                zeroOrMore:
-                  "https://w3id.org/xapi/video/patterns#all-activities-pattern",
-              },
-            ],
           };
 
           console.log("req: ", xapiStatement);
@@ -679,6 +621,8 @@
                 description: {
                   "en-us":
                     "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
+                  "ja-jp":
+                    "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
                 },
               },
             },
@@ -691,7 +635,10 @@
               contextActivities: {
                 category: [
                   {
-                    id: "https://demo.flak.works/categories/34/videos",
+                    id: "https://w3id.org/xapi/video/v1.0.2",
+                    definition: {
+                      type: "https://w3id.org/xapi/video/activity-type/video",
+                    },
                   },
                 ],
               },
@@ -729,6 +676,8 @@
                 description: {
                   "en-us":
                     "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
+                  "ja-jp":
+                    "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
                 },
               },
             },
@@ -743,7 +692,10 @@
               contextActivities: {
                 category: [
                   {
-                    id: "https://demo.flak.works/categories/34/videos",
+                    id: "https://w3id.org/xapi/video/v1.0.2",
+                    definition: {
+                      type: "https://w3id.org/xapi/video/activity-type/video",
+                    },
                   },
                 ],
               },
@@ -781,6 +733,8 @@
                 description: {
                   "en-us":
                     "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
+                  "ja-jp":
+                    "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
                 },
               },
             },
@@ -793,7 +747,10 @@
               contextActivities: {
                 category: [
                   {
-                    id: "https://demo.flak.works/categories/34/videos",
+                    id: "https://w3id.org/xapi/video/v1.0.2",
+                    definition: {
+                      type: "https://w3id.org/xapi/video/activity-type/video",
+                    },
                   },
                 ],
               },
@@ -832,6 +789,8 @@
                 description: {
                   "en-us":
                     "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
+                  "ja-jp":
+                    "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
                 },
               },
             },
@@ -844,7 +803,10 @@
               contextActivities: {
                 category: [
                   {
-                    id: "https://demo.flak.works/categories/34/videos",
+                    id: "https://w3id.org/xapi/video/v1.0.2",
+                    definition: {
+                      type: "https://w3id.org/xapi/video/activity-type/video",
+                    },
                   },
                 ],
               },
@@ -883,6 +845,8 @@
                 description: {
                   "en-us":
                     "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
+                  "ja-jp":
+                    "ジムはお父さんと魚釣りに行くようです。\n今回この講座には補助教材はありません。",
                 },
               },
             },
@@ -896,7 +860,10 @@
               contextActivities: {
                 category: [
                   {
-                    id: "https://demo.flak.works/categories/34/videos",
+                    id: "https://w3id.org/xapi/video/v1.0.2",
+                    definition: {
+                      type: "https://w3id.org/xapi/video/activity-type/video",
+                    },
                   },
                 ],
               },

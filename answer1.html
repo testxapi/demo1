@@ -708,11 +708,22 @@
               id: "http://adlnet.gov/expapi/activities/question",
               definition: {
                 name: { "en-us": object },
-                description: { "en-us": desc },
+                description: {
+                  "en-us": desc,
+                  "ja-jp": desc,
+                },
               },
             },
             context: {
               contextActivities: {
+                category: [
+                  {
+                    id: "https://w3id.org/xapi/video/v1.0.2",
+                    definition: {
+                      type: "https://w3id.org/xapi/video/activity-type/video",
+                    },
+                  },
+                ],
                 parent: [
                   {
                     id: "https://demo.flak.works/categories/34/videos",

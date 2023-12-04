@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -875,7 +878,7 @@
                   <p>ジムはお父さんと魚釣りに行くようです。</p>
                 </div>
               </div>
-              <a href="./video2.html"></a>
+              <a href="./video1.html"></a>
             </div>
             <div class="asl">
               <h4 class="fw700 fs24">
@@ -965,17 +968,29 @@
             id: objectId,
             definition: {
               name: { "en-us": object },
-              description: { "en-us": desc },
+              description: {
+                "en-us": desc,
+                "ja-jp": desc,
+              },
             },
           },
           context: {
             contextActivities: {
+              category: [
+                {
+                  id: "https://w3id.org/xapi/video/v1.0.2",
+                  definition: {
+                    type: "https://w3id.org/xapi/video/activity-type/video",
+                  },
+                },
+              ],
               parent: [
                 {
                   id: "https://demo.flak.works/categories/34/videos",
                   definition: {
                     name: {
-                      "en-US": "英語アニメーション",
+                      "en-us": "英語アニメーション",
+                      "ja-jp": "英語アニメーション",
                     },
                   },
                 },
